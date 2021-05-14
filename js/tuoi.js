@@ -2,7 +2,7 @@
 // Chương trình nhập vào năm sinh -> in ra tuổi của bạn
     // dinhvy //
 
-    let number = parseInt(prompt("Nhập năm hiện tại bạn đang sống: "));
+let number = parseInt(prompt("Nhập năm hiện tại bạn đang sống: "));
 let namsinh = parseInt(prompt("Nhập năm sinh của bạn: "));
 let value = "";
 	 if(number = namsinh)
