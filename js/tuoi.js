@@ -6,8 +6,8 @@ let number = parseInt(prompt("Nhập năm hiện tại bạn đang sống: "));
 let namsinh = parseInt(prompt("Nhập năm sinh của bạn: "));
 let value = "";
 let tmp = "";
-	 if(number = namsinh)
-     {
+	if(number = namsinh)
+        {
        let getthanght = parseInt(prompt("Nhập tháng hiện tại trong năm: " + number + " là: "));
        let thangsinh = parseInt(prompt("Nhập tháng sinh của bạn: "));
        
@@ -65,8 +65,7 @@ let tmp = "";
              alert("Số tuổi hiện tại là: " + tmp + " tháng tuổi");
               break;
          }
-     }
-   else if(number < namsinh)
+     }else if(number < namsinh)
      {
       value = parseInt(prompt("Vui lòng Nhập năm hiện tại bạn đang sống phải lớn hơn năm sinh của bạn: "));
      }else{
